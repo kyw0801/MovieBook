@@ -1,0 +1,8 @@
+create table userinfo (
+    user_id varchar2(50) primary key
+    ,user_name varcha2(50)
+    ,user_pwd varchar2(50)
+    ,user_phone varchar2(50)
+    ,user_email varchar2(50)
+    ,user_gender varchar2(50)
+);

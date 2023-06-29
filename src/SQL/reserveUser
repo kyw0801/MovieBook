@@ -1,0 +1,10 @@
+create table reserveUser (
+    user_name varchar2(50) not null --닉네임
+    ,movie_name varchar2(50) not null -- 영화
+    ,moive_local varchar2(50) not null -- 영화관
+    ,select_day varchar2(50) not null -- 날짜
+    ,select_time varchar2(50)not null -- 시간
+    ,person int not null -- 인원
+    ,setnumber varchar2(50)  -- 좌석
+     ,reserve_date date -- 예매시간
+);
